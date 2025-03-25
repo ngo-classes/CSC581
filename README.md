@@ -1,16 +1,16 @@
-# Interactive Book
+# Miniconda with Tensorflow
 
 A template to support development of containerization learning materials
 
 ## Notes:
 
 ### Warning
-
+https://github.com/ngo-classes/CSC581/blob/main/README.md
 - If you clone into a Windows environment, makes sure that your git is set to keep `LF`:
 
 ~~~
 git config --global core.autocrlf false
-git clone https://github.com/WCU-EDGE/interactive_book
+git clone https://github.com/CSC581/interactive_book
 ~~~
 
 ### Building the images
