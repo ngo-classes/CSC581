@@ -1,6 +1,3 @@
 #!/bin/bash
 
-echo "---> Starting sshd ..."
-/usr/sbin/sshd -e
-
-sleep infinity
+cd /opt/workplace && jupyter lab --port=8888 --NotebookApp.token='' --no-browser --ip=0.0.0.0 --allow-root &
