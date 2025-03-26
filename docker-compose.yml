@@ -18,7 +18,7 @@ services:
       
   tinyml-gpu:
     init: true
-    image: interactive_book:base
+    image: tinyml:latest
     ports:
       - "18888:8888" # jupyter
     volumes:
